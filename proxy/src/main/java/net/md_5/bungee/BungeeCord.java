@@ -186,7 +186,7 @@ public class BungeeCord extends ProxyServer
     @Override
     public void start() throws Exception
     {
-        ResourceLeakDetector.setEnabled( false ); // Eats performance
+        ResourceLeakDetector.setLevel( ResourceLeakDetector.Level.DISABLED ); // Eats performance
 
         File moduleDirectory = new File( "modules" );
         moduleManager.load( this, moduleDirectory );
