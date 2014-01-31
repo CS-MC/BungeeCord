@@ -8,11 +8,9 @@ import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
-import net.md_5.bungee.api.plugin.TabExecutor;
 
 public class CommandServerlist
   extends Command
-  implements TabExecutor
 {
   public CommandServerlist()
   {
@@ -44,11 +42,6 @@ public void execute(CommandSender sender, String[] args)
     }
   }
 
-@Override
-public Iterable<String> onTabComplete(CommandSender arg0, String[] arg1) {
-	// TODO Auto-generated method stub
-	return null;
-}
   
 
 }
