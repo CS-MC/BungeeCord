@@ -38,7 +38,7 @@ public void execute(CommandSender sender, String[] args)
       if (serverList.length() != 0) {
         serverList.setLength(serverList.length() - 2);
       }
-      player.sendMessage(ChatColor.AQUA + "Current servers:" + ChatColor.GOLD + serverList.toString());
+      player.sendMessage(ChatColor.AQUA + "Current servers: " + ChatColor.GOLD + serverList.toString());
     }
   }
 
