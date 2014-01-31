@@ -1,0 +1,4 @@
+name: ${project.name}
+main: me.cloud9.PluginServerlist
+version: ${describe}
+description: ${project.description}
