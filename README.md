@@ -1,3 +1,3 @@
 BungeeCord
 ==========
-Edited for XeX Network
+Edit for XeX Network
